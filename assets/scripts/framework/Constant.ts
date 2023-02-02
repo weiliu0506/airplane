@@ -14,5 +14,12 @@ export class Constant {
         PLANE2: 2, 
         PLANE3: 3, 
     }
+
+    public static CollisionType = {
+        PLAYER: 1 << 1, 
+        ENEMY: 1 << 2, 
+        PLAYER_BULLET: 1 << 3, 
+        ENEMY_BULLET: 1 << 4, 
+    }
 }
 
